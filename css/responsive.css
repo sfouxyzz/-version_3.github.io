@@ -1,0 +1,55 @@
+/* 1199px 991px 767px 600px 500px 340px*/
+@media (max-width:1199px){
+
+}
+@media (max-width:991px){
+    .slider .row{
+        flex-direction: column;
+    }
+    .slider .slider-items{
+        width: 400px;
+        margin: 0 auto;
+    }
+
+}
+@media (max-width:767px){
+    .skills > div{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .skills{
+        padding-top: 60px;
+    }
+    .skills .skill-3{
+        margin-top: 30px;
+    }
+    .form .form-pull{
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .form-pull > div{
+        flex-direction: column;
+    }
+    .form-pull input{
+        margin-top: 10px;
+    }
+}
+@media (max-width:600px){
+
+    .carousel-control-next {
+        position: absolute;
+        right: -13px;
+    }
+    .carousel-control-prev {
+        position: absolute;
+        left: -13px;
+    }
+}
+
+@media (max-width:500px){
+    
+}
+@media (max-width:340px){
+    
+}
